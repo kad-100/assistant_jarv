@@ -13,7 +13,7 @@ engine.say(audio)
 engine.runAndWait()
 if __name__=="__main__" :
 
-speak("Code With Harry")
+speak("Code With Kushagra")
 import datetime
 
 def wishme():
@@ -83,7 +83,7 @@ def takeCommand():
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "harryyourEmail@gmail.com"    
+                to = "kushagrayourEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
